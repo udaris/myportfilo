@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Protfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2ea2c22f85.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="person">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfilo">MY WORKS</a></li>
+                <li><a href="#services">MY SERVICES</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <div class="detail">
+            <p>Software Engineer</p>
+            <h1>I, m <span> Udari</span> Kodippilige</h1>
+            <p>From Sri Lanka, This is my official protfolio website to showes all
+                <br> Details and work experiences in both web and mobile development.
+            </p>
+            <a href="images/cv.pdf" download >DOWNLOAD CV</a>
+        </div>
+        <div class="images">
+            <img src="images/shape.png" class="shape">
+            <img src="images/girl.png" class="girl">
+        </div>
+    </div>
+    <!--------------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>“A responsible, motivated, hard-working, quickunderstanding, passionate team player with a good
+                        balance <br>of
+                        both technical and non-technical skills, seeking an opportunity in
+                        the field of software engineering. A capable team player and a
+                        fast learner with positive attitudes towards the career and life
+                        striving to achieve professional success.”</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack</span> Developer for Both Web and Mobile Development</li>
+                            <li>Front-end Technologies <span>Angular/ React Native/ HTML/ CSS/ Bootstrap/
+                                    Javascript</span></li>
+                            <li>Back-end Technologies <span>SpringBoot/ PHP/ Firebase</span></li>
+                            <li>Databases <span>MySQL/ MongoDB/ Firebase</span></li>
+                            <li>Languages <span>Java/ Python</span></li>
+                            <li>Authentication <span>AWS Cognito</span></li>
+                            <li>Version Controlling <span>GIT</span></li>
+                            <li>Testing <span>Postman/ Swagger UI/ Selenium/ Rest Assured in Java</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span>2022- Software Engineer Trainee</span> at Nimbus Venture (Pvt) Ltd.</li>
+                            <li><span>2017- 2018 </span>Computer Operating Assistant Trainee at Nenasala</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of Moratuwa, Faculty of Information Technology: </span> Reading for
+                                B.Sc. (Hons) in Information
+                                Technology (Expected 2023)</li>
+                            <li><span>G.C.E Advanced Level </span>Biological
+                                Science Stream (2017) at Govt. Debarawewa Central College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------about--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Web App Development</h2>
+                    <p>I have experienced with different technology stacks through internship and univesity projects.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-blog"></i>
+                    <h2>Mobile App Development</h2>
+                    <p>I have developed several mobile apps with React Native and Firebase through university projects and my self projects.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full Stack Development</h2>
+                    <p>I have experienced with both frond end and back end development with different datbasese also.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------portfilo-->
+<div id="portfilo">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img style="height: 100%; width: 100%;" src="images/web.png">
+                <div class="layer">
+                    <h3>News Blog</h3>
+                    <p>Web application that help to user to read news and write ne news to the world.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img style="height: 100%; width: 100%;" src="images/mobile.png">
+                <div class="layer">
+                    <h3>Sport App</h3>
+                    <p>Mobile application that help to user to read news and write ne news to the world.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img style="height: 100%; width: 100%;" src="images/full.jpg">
+                <div class="layer">
+                    <h3>Messages App</h3>
+                    <p>Full stack development application that help to user to read news and write ne news to the world.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!------contact------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me </h1>
+                    <p> <i class="fas fa-paper-plane"></i>udari.18@itfac.mrt.ac.lk</p>
+                    <p><i class="fas fa-phone-square-alt"></i>(+94)71 309 9793</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                </div>
+                <div class="contact-left">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tablink.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
